@@ -25,8 +25,6 @@ h1, h2, h3 {
     color: #252525;
 }
 
-
-
 /* Header */
 header {
     background-color: #ffffff;
@@ -44,8 +42,6 @@ header a {
     text-decoration: none;
     color: inherit;
 }
-
-
 
 #menu {
     font-size: 110%;
@@ -87,12 +83,13 @@ nav {
 }
 
 /* Main content */
-main {    
+main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
 }
-/* Hero Section */
+
+/* Hero section */
 #hero {
     height: 600px;
     width: 100%;
@@ -111,8 +108,36 @@ main {
     padding-top: 40px;
     padding-left: 10px;
 }
+
 #cover-text > h2, #cover-text > h3 {
-    color:white;
+    color: #ffffff;
+}
+
+/* Reasons section */
+#reasons {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#reasons h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 280%;
+}
+
+#benefits-physical > div,
+#benefits-mental > div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#benefits p {
+    padding: 0 20px;
+}
+
+#benefits hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
 }
 
 /* Footer */
@@ -164,6 +189,7 @@ main {
         /* Push main content down to accommodate larger header */
         margin-top: 79px;
     }
+
     /* Hero */
     #cover-text {
         width: 300px;
